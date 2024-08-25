@@ -3,6 +3,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 
+// To stop propagation, add e.stopPropagation() in every button component
 export const Toolbar = () => {
 	return (
 		<div
@@ -11,8 +12,14 @@ export const Toolbar = () => {
 				alert("You clicked on the toolbar!");
 			}}
 		>
-			<Button onClick={() => alert("Playing!")}>Play Movie</Button>
-			<Button onClick={() => alert("Uploading!")}>Upload Image</Button>
+			<Button onClick={(e) => {
+                e.stopPropagation();
+                alert("Playing!")
+            }}>Play Movie</Button>
+			<Button onClick={(e) => {
+                e.stopPropagation();
+                alert("Uploading!")
+            }}>Upload Image</Button>
 		</div>
 	);
 };
