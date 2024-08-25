@@ -4,6 +4,7 @@
 - React Component
 - Passing Props to a Component
 - Rendering Lists
+- Event Propagation
 
 ## [react-component](https://react.dev/learn/your-first-component)
 Components are one of the core concepts of React. They are the foundation upon which you build user interfaces (UI), which makes them the perfect place to start your React journey!
