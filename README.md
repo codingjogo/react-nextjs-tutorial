@@ -13,3 +13,5 @@ Components are one of the core concepts of React. They are the foundation upon w
 ## [passing-props-to-a-component-in-react](https://github.com/codingjogo/react-nextjs-tutorial/commit/9dd525e3226008fc02ec41e9fdf936f8d02748e0)
 
 ## [rendering-lists](https://github.com/codingjogo/react-nextjs-tutorial/pull/3)
+
+## [event-propagation]()
