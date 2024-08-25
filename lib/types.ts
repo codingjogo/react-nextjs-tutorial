@@ -1,4 +1,5 @@
 export type Data = {
-	content: string;
-	author: string;
-};
+    id: number;
+    name: string;
+    profession: string;
+}
